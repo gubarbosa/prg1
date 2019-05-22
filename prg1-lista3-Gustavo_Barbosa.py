@@ -6,13 +6,13 @@ def palindrome(texto):
     '''Faça uma função que verifique se uma textro passado é palíndrome,
     isto é, se é igual quando lido de trás pra frente.'''
     texto = texto.strip().lower()
-
     novo_texto = ''
     for caracter in texto:
         if caracter.isalnum():
             novo_texto += caracter
 
     return novo_texto == novo_texto[::-1]
+
 
 def troca_caixa(texto):
     '''Vogais ficam em caixa alta (maiúsculas)
@@ -26,6 +26,7 @@ def troca_caixa(texto):
 
     return nova_palavra
 
+
 def imprime_mes_por_extenso(data):
     '''Faça um programa que solicite a data de nascimento (dd/mm/aaaa)
     e imprima com o nome do mês por extenso
@@ -35,13 +36,16 @@ def imprime_mes_por_extenso(data):
     meses_extenso = meses[int(mes)-1]
     return '{} de {} de {}'.format(dia, meses_extenso, ano)
 
+
 def encontra_caracter(texto, caracter_procurado):
     '''Receba um texto e retorne a localização da primeira vez que
     aparece o caracter especificado. Não use métodos nativos, com texto.find(), index, etc.'''
 
 
+
 def é_sortudo(numero):
     '''um número é sortudo se ele contém o dígito 2 mas não o dígito 7.'''
+    return '2' in str(numero) and not '7' in str(numero)
 
 
 def numeros_sortudos(limite_inferior=1, limite_superior=100000):
@@ -53,25 +57,45 @@ def numeros_sortudos(limite_inferior=1, limite_superior=100000):
     Dica: faça uma função de validação e outra que a chama e
     verifica o intervalo dado
     '''
+    contador = 0
+    for numero in range(limite_inferior, limite_superior + 1):
+        if é_sortudo(numero):
+            contador += 1
+    return contador
+
 
 
 def é_azarado(numero):
     '''O último dígito não pode ser igual ao primeiro, porque isso dá azar
     '''
+    numero = str(numero)
+    return numero[0] == numero[-1]
 
 
 def soma_é_par(numero):
     '''A soma dos dígitos tem que ser par, porque isso é legal;
     '''
+    soma = 0
+    for digit in numero:
+        soma += int(digit)
+
+    return soma % 2 == 0
 
 
 def é_chato(numero):
     '''Não pode haver dois dígitos consecutivos idênticos, porque isso é chato.'''
+    anterior = ''
+    for atual in numero:
+        if anterior == atual:
+            return True
+        anterior = atual
+    return False
+
 
 
 def é_número_válido(numero):
     '''Um número é válido se não é azarado, a soma é par e não é chato.'''
-
+    return not é_azarado(numero) and soma_é_par(numero) and not é_chato(numero)
 
 def ponteironuloville(telefones):
     '''Na pacata vila campestre de Ponteironuloville, todos os telefones
@@ -116,6 +140,11 @@ def ponteironuloville(telefones):
 
         Resposta: 39
     '''
+    contador = 0
+    for numero in telefones:
+        if é_número_válido(numero):
+            contador += 1
+    return contador
 
 
 # Área de testes: só mexa aqui se souber o que está fazendo!

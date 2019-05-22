@@ -19,6 +19,7 @@ def intercalamento_listas(lista1,lista2):
     crie uma nova lista composta pelo
     intercalamento entre as duas.'''
 
+    return nova_list
 
 
 def im_pares(lista):

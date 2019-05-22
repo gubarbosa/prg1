@@ -17,13 +17,23 @@ def palindrome(texto):
 def troca_caixa(texto):
     '''Vogais ficam em caixa alta (maiúsculas)
     Consoantes ficam em caixa baixa (minúsculas)'''
+    nova_palavra = ''
+    for letra in texto:
+        if letra in 'aeiouAEIOU':
+            nova_palavra += letra.upper()
+        else:
+            nova_palavra += letra.lower()
 
+    return nova_palavra
 
 def imprime_mes_por_extenso(data):
     '''Faça um programa que solicite a data de nascimento (dd/mm/aaaa)
     e imprima com o nome do mês por extenso
     '''
-
+    dia, mes, ano = data.split('/')
+    meses = 'janeiro fevereiro marco abril maio junho julho agosto setembro outubro novembro dezembro'.split()
+    meses_extenso = meses[int(mes)-1]
+    return '{} de {} de {}'.format(dia, meses_extenso, ano)
 
 def encontra_caracter(texto, caracter_procurado):
     '''Receba um texto e retorne a localização da primeira vez que

@@ -6,11 +6,7 @@
 
 def ondernamento_contrario(lista):
     ''' Devolve a lista invertida'''
-    nova_lista = []
-    for i in lista:
-        nova_lista.append(i)
-
-    return nova_lista
+    return lista[::-1]
 
 
 
@@ -19,7 +15,6 @@ def intercalamento_listas(lista1,lista2):
     crie uma nova lista composta pelo
     intercalamento entre as duas.'''
 
-    return nova_list
 
 
 def im_pares(lista):

@@ -14,7 +14,11 @@ def intercalamento_listas(lista1,lista2):
     ''' Usando 'lista1' e 'lista2', ambas do mesmo comprimento,
     crie uma nova lista composta pelo
     intercalamento entre as duas.'''
-
+    nova_lista = []
+    for i, ch in enumerate(lista1):
+        nova_lista.append(lista1[i])
+        nova_lista.append(lista2[i])
+    return nova_lista
 
 
 def im_pares(lista):
@@ -47,6 +51,19 @@ def dar_troco(valor_a_pagar, valor_em_dinheiro):
     ''' Calcule o troco numa lista com notas de 1,2,5,10,20,50 com sua
     quantidade de notas sem considerar centavos
     ex: 1 e 10 retorna troco_notas_quantidade = [5,2] quantidade_notas = [1,2] '''
+    troco = int(valor_em_dinheiro - valor_a_pagar)
+    troco_notas_qtde = []
+    if troco > 0:
+        resto = troco
+        notas = [50, 20, 10, 5, 2, 1]
+        for i, nota in enumerate(list(notas)):
+            qtde = resto // notas[i]
+            if qtde != 0:
+                troco_notas_qtde.append((notas[i], qtde))
+                resto = resto % notas[i]
+        return troco_notas_qtde
+    else:
+        return []
 
 
 

@@ -40,7 +40,12 @@ def imprime_mes_por_extenso(data):
 def encontra_caracter(texto, caracter_procurado):
     '''Receba um texto e retorne a localização da primeira vez que
     aparece o caracter especificado. Não use métodos nativos, com texto.find(), index, etc.'''
+    for i, caracter in enumerate(texto):
+        if caracter == caracter_procurado:
+            return i
 
+    else:
+        return - 1
 
 
 def é_sortudo(numero):

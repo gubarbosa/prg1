@@ -36,6 +36,7 @@ def altera_salarios(salarios):
     '''
 
 
+
 # Área de testes: só mexa aqui se souber o que está fazendo!
 acertos = 0
 total = 0

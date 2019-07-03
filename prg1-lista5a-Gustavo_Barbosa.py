@@ -72,13 +72,17 @@ def crescimento_populacional(populacao1, populacao2, crescimento1,
 def Fibonacci(n):
     ''' Retorne o n-ésimo valor da série de Fibonacci
     Fibonacci = 1,1,2,3,5,8,13,...'''
-    # a = 0
-    # n += 1
-    # while n <
-    #     n += a
-    #     a += 1
+    a = 0
+    b = 1
+    c = 0
+    i = 0
+    while i < n:
+        c = a + b
+        a = b
+        b = c
+        i += 1
 
-
+    return a
 
 
 
@@ -181,7 +185,7 @@ def serie2(n):
         soma += count1 / m
         count1 += 1
         m += 2
-    return round(soma,2)
+    return round(soma, 2)
 
 
 
@@ -189,6 +193,18 @@ def serie_pi(n):
     ''' Calcule o valor de pi através da série
     4/1 - 4/3 + 4/5 - 4/7 + ... - 4/m, sendo informado
     o número n de iterações '''
+    # pi = 4/1
+    # denominador = 1
+    # i = 0
+    # while i < n:
+    #     pi += 4/3
+    #     denominador += 2
+    #     i += 1
+    #
+    # return pi
+    #
+
+
 
 
 

@@ -9,19 +9,36 @@ def multi_string(s,n) :
     retorna uma string com n cópias da string original
     multi_string('Oi', 2) -> 'OiOi'
     '''
+    nova_string = ''
+    if n == 0 or s == '':
+        return ''
+    x = 0
+    while x < n:
+        nova_string += s
+        x += 1
 
-
+    return nova_string
 def explode_string(s) :
     '''
     explode_string('Code') -> 'CCoCodCode'
     explode_string('abc') -> 'aababc'
     explode_string('ab') -> 'aab'
     '''
+    nova_string = ''
+    x = 0
+    while x <= len(s):
+        nova_string = s[0] + s[0:2] + s[0:3] + s[0:3]
+        x += 1
+
+    return nova_string
+
 
 
 def conta_noves(nums) :
     ''' Conta quantas vezes aparece o 9 numa lista nums.'''
+    cont = nums.count(9)
 
+    return cont
 
 def nove_na_frente(nums) :
     '''
@@ -30,6 +47,10 @@ def nove_na_frente(nums) :
     nove_na_frente([1, 2, 3, 4, 9]) -> False
     nove_na_frente([1, 2, 3, 4, 5]) -> False
     '''
+    if 9 in nums[0:4]:
+        return True
+    else:
+        return False
 
 
 def alo_nome(nome) :
@@ -39,6 +60,8 @@ def alo_nome(nome) :
     alo_nome('Alice') -> 'Alô Alice!'
     alo_nome('X') -> 'Alô X!'
     '''
+    nova_string = 'Alô ' + nome + '!'
+    return nova_string
 
 
 def cria_tags(tag,palavra) :
@@ -47,6 +70,8 @@ def cria_tags(tag,palavra) :
     cria_tags('i', 'Alô'), '<i>Alô</i>'
     cria_tags('cite', 'Uhul'), '<cite>Uhul</cite>'
     '''
+    nova_string = '<' + tag + '>' + palavra + '</' + tag + '>'
+    return nova_string
 
 
 def final_extra(s) :
@@ -57,7 +82,8 @@ def final_extra(s) :
     final_extra('ab'), 'ababab'
     final_extra('Oi'), 'OiOiOi'
     '''
-
+    nova_string = s[-2:] * 3
+    return nova_string
 
 def primeira_metade(s) :
     '''
@@ -66,7 +92,8 @@ def primeira_metade(s) :
     primeira_metade('Lula') -> 'Lu'
     primeira_metade('abcdef') -> 'abc'
     '''
-
+    nova_string = s[0:len(s) // 2]
+    return nova_string
 
 def sem_pontas(s) :
     '''
@@ -76,7 +103,8 @@ def sem_pontas(s) :
     sem_pontas('Python') -> 'ytho'
     sem_pontas('codigo') -> 'odig'
     '''
-
+    nova_string = s[1:-1]
+    return nova_string
 
 def gira_esquerda_2(s) :
     '''
@@ -85,6 +113,8 @@ def gira_esquerda_2(s) :
     gira_esquerda_2('Beleza') -> 'lezaBe'
     gira_esquerda_2('Oi') -> 'Oi'
     '''
+    nova_string = s[2:] + s[:2]
+    return nova_string
 
 
 # Área de testes: só mexa aqui se souber o que está fazendo!

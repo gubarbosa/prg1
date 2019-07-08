@@ -10,7 +10,10 @@ def comeco_ou_fim_6(nums) :
     comeco_ou_fim_6([6, 1, 2, 3]) -> True
     comeco_ou_fim_6([3, 2, 1]) -> False
     '''
-
+    if nums[0] == 6 or nums[-1] == 6:
+        return True
+    else:
+        return False
 
 def inicio_fim_igual(nums) :
     '''
@@ -20,7 +23,12 @@ def inicio_fim_igual(nums) :
     inicio_fim_igual([1, 2, 3, 1]) -> True
     inicio_fim_igual([1, 2, 1]) -> True
     '''
-
+    if nums == []:
+        return False
+    elif nums[0] == nums[-1]:
+        return True
+    else:
+        return False
 
 def extremidades_iguais(a,b) :
     '''
@@ -31,6 +39,11 @@ def extremidades_iguais(a,b) :
     extremidades_iguais([1, 2, 3], [7, 3, 2]) -> False
     extremidades_iguais([1, 2, 3], [1, 3]) -> True
     '''
+    if a[0] == b[0] or b[-1] == a[-1]:
+        return True
+    else:
+        return False
+
 
 
 def maior_ponta(nums) :
@@ -41,6 +54,22 @@ def maior_ponta(nums) :
     maior_ponta([1, 2, 3]) -> [3, 3, 3]
     maior_ponta([1, 3, 2]) -> [2, 2, 2]
     '''
+    nova_lista = []
+    if nums[0] > nums[-1]:
+        nova_lista.append(nums[0])
+        nova_lista.append(nums[0])
+        nova_lista.append(nums[0])
+    elif nums[0] < nums[-1]:
+        nova_lista.append(nums[-1])
+        nova_lista.append(nums[-1])
+        nova_lista.append(nums[-1])
+    else:
+        nova_lista.append(nums[0])
+        nova_lista.append(nums[0])
+        nova_lista.append(nums[0])
+
+    return nova_lista
+
 
 
 def soma_2_primeiros(nums) :
@@ -49,7 +78,12 @@ def soma_2_primeiros(nums) :
     dois primeiros elementos.
     Se a lista tiver menos de dois elementos, soma o que for possível.
     '''
-
+    if nums == []:
+        return 0
+    elif len(nums) < 2:
+        return nums[0]
+    else:
+        return nums[0] + nums[1]
 
 def meio_do_caminho(a,b) :
     '''

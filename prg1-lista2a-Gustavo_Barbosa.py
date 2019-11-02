@@ -52,6 +52,18 @@ def ano_bissexto(ano):
 def data_valida(data):
     '''Valida data. Recebe uma string no formato dd/mm/aaaa e informa
     um valor lógico indicando se a data é válida ou não.'''
+    dia, mes, ano = data.split('/')
+
+    dia = int(dia)
+    mes = int(mes)
+    ano = int(ano)
+
+    if dia > 31 and dia < 1:
+        return False
+    elif mes < 1 and mes > 12:
+        return False
+    else:
+        return True
 
 
 

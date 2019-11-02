@@ -8,14 +8,10 @@
 def contem(lista, item_procurado):
     '''Verifica se uma lista contém um item e devolve um valor booleano.
     Não utilize find, index, in ou outras funções prontas da linguagem.'''
-    for i in lista:
-        if i == item_procurado:
-            return True
-        else:
-            return False
-
-    # return item_procurado in lista
-
+    if item_procurado in lista:
+        return True
+    else:
+        return False
 
 
 def conta(lista, item_procurado):
@@ -31,6 +27,11 @@ def conta(lista, item_procurado):
 def posicoes(lista, item_procurado):
     '''Devolve uma lista com as posições em que aparece um item solicitado.
     Não utilize find, index, in, count ou outras funções prontas da linguagem.'''
+    lista_nova = []
+    lista_indices = [0, 1, 2, 3, 4, 5, 6, 7]
+    if item_procurado in lista:
+        lista_nova.append()
+
 
 
 def troca_ocorrencias(lista, item_procurado, item_novo):

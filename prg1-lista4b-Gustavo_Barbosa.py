@@ -10,19 +10,42 @@ def media_anual(temperaturas):
     '''Receba uma lista com as temperaturas médias de cada mês
     e devolva uma lista com os números correspondentes aos meses que
     possuem temperatura superior à média anual.'''
+    lista = []
+    media_ano = 0
+    for x in temperaturas:
+        media_ano += x / len(temperaturas)
+    for key, x in enumerate(temperaturas):
+        if x > media_ano:
+            lista.append(key)
+        elif x == media_ano:
+            lista = []
+        elif x < media_ano:
+            pass
 
+    return lista
 
 def maiores_13(idades, alturas):
     '''Esta função recebe as idades e alturas de diversas pessoas, em duas
     listas separadas e de igual comprimento.
     Calcule a media das alturas e retorne as alturas daqueles que possuem
     'idades' maior que 13 e altura inferior a media da turma'''
-
+    alturas_certas = []
+    idades_certas = []
+    media_altura = 0
+    for x in alturas:
+        media_altura += x / len(alturas)
+        if x < media_altura:
+            alturas_certas.append(x)
+#
+    return alturas_certas
 
 def media_saltos_lista(saltos):
     '''Receba uma lista com os saltos de um atleta e calcule a média dos
     seus saltos, sabendo que o melhor e o pior saltos são desconsiderados.'''
-
+    saltos.remove(min(saltos))
+    saltos.remove(max(saltos))
+    media_saltos = sum(saltos) / len(saltos)
+    return media_saltos
 
 def altera_salarios(salarios):
     '''Recebe uma lista de salários e devolva uma lista com os salários
@@ -34,6 +57,19 @@ def altera_salarios(salarios):
     - acima de 5 SM: aumento de 5%
     Salário mínimo para referência: R$ 724,00
     '''
+    sm = 724
+    salarios_alterados = []
+    for salario_atual in salarios:
+        if salario_atual <= sm:
+            salario_atual += salario_atual * 0.2
+        elif salario_atual <= sm * 2:
+            salario_atual += salario_atual * 0.15
+        elif salario_atual <= sm * 5:
+            salario_atual += salario_atual * 0.1
+        elif salario_atual > sm * 5:
+            salario_atual += salario_atual * 0.05
+        salarios_alterados.append(salario_atual)
+    return salarios_alterados
 
 
 

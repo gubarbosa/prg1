@@ -3,31 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="72204d75-b5af-4a2f-8631-1cba9ede7e3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prg1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prg1-lista2a-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1-lista2a-Gustavo_Barbosa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prg1-lista3-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1-lista3-Gustavo_Barbosa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prg1-lista4a-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1-lista4a-Gustavo_Barbosa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prg1-lista2c-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1-lista2c-Gustavo_Barbosa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prg1-lista4b-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1-lista4b-Gustavo_Barbosa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prg1-lista4c-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1-lista4c-Gustavo_Barbosa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prg1/prg1-lista5a-Gustavo_Barbosa.py" beforeDir="false" afterPath="$PROJECT_DIR$/prg1/prg1-lista5a-Gustavo_Barbosa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prg1/prg1-lista5a-Gustavo_Barbosa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,57 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/listas/prg1-lista3-Gustavo_Barbosa.py" />
-        <option value="$PROJECT_DIR$/prg1-lista3-Gustavo_Barbosa.py" />
-        <option value="$PROJECT_DIR$/prg1-lista4a-Gustavo_Barbosa.py" />
-        <option value="$PROJECT_DIR$/prg1-lista4b-Gustavo_Barbosa.py" />
-        <option value="$PROJECT_DIR$/prg1-lista4c-Gustavo_Barbosa.py" />
-        <option value="$PROJECT_DIR$/prg1-lista2a-Gustavo_Barbosa.py" />
-        <option value="$PROJECT_DIR$/debug.py" />
-        <option value="$PROJECT_DIR$/prg1/prg1-lista5a-Gustavo_Barbosa.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="width" value="1420" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1T1pbeBFNL1dlDYZ5yrg9Ivavr1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="prg1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prg1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prg1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prg1" type="462c0819:PsiDirectoryNode" />
-              <item name="prg1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -108,28 +55,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.prg1-lista5a-Gustavo_Barbosa">
-    <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="prg1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="prg1-lista2a-Gustavo_Barbosa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="prg1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +99,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prg1-lista4b-Gustavo_Barbosa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="prg1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prg1-lista4b-Gustavo_Barbosa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prg1-lista4c-Gustavo_Barbosa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="prg1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prg1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prg1/prg1-lista5a-Gustavo_Barbosa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prg1-lista5a-Gustavo_Barbosa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,9 +168,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.prg1-lista5a-Gustavo_Barbosa" />
-        <item itemvalue="Python.debug" />
-        <item itemvalue="Python.prg1-lista2a-Gustavo_Barbosa" />
         <item itemvalue="Python.prg1-lista4c-Gustavo_Barbosa" />
+        <item itemvalue="Python.prg1-lista4b-Gustavo_Barbosa" />
+        <item itemvalue="Python.prg1-lista2a-Gustavo_Barbosa" />
         <item itemvalue="Python.prg1-lista4a-Gustavo_Barbosa" />
       </list>
     </recent_temporary>
@@ -251,41 +198,23 @@
       <workItem from="1560529171417" duration="3304000" />
       <workItem from="1560796937120" duration="597000" />
       <workItem from="1561071298369" duration="12259000" />
+      <workItem from="1572637529501" duration="12699000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35607000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.1603467" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.23560767" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -294,69 +223,17 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/prg1$debug.coverage" NAME="debug Coverage Results" MODIFIED="1561080016686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista3_Gustavo_Barbosa.coverage" NAME="prg1-lista3-Gustavo_Barbosa Coverage Results" MODIFIED="1572647358983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista4c_Gustavo_Barbosa.coverage" NAME="prg1-lista4c-Gustavo_Barbosa Coverage Results" MODIFIED="1572655617137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/prg1$scratch_3.coverage" NAME="scratch_3 Coverage Results" MODIFIED="1558547738387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
-    <SUITE FILE_PATH="coverage/prg1$prg1_lista3_Gustavo_Barbosa.coverage" NAME="prg1-lista3-Gustavo_Barbosa Coverage Results" MODIFIED="1558922518312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/prg1$prg1_lista4c_Gustavo_Barbosa.coverage" NAME="prg1-lista4c-Gustavo_Barbosa Coverage Results" MODIFIED="1558923821238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/prg1$prg1_lista4a_Gustavo_Barbosa.coverage" NAME="prg1-lista4a-Gustavo_Barbosa Coverage Results" MODIFIED="1558923576949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/prg1$prg1_lista1_Gustavo_Barbosa.coverage" NAME="prg1-lista1-Gustavo_Barbosa Coverage Results" MODIFIED="1558544734993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas" />
-    <SUITE FILE_PATH="coverage/prg1$prg1_lista2a_Gustavo_Barbosa.coverage" NAME="prg1-lista2a-Gustavo_Barbosa Coverage Results" MODIFIED="1559697162121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/prg1$prg1_lista5a_Gustavo_Barbosa.coverage" NAME="prg1-lista5a-Gustavo_Barbosa Coverage Results" MODIFIED="1561083367036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prg1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/listas/prg1-lista1-Gustavo_Barbosa.py" />
-    <entry file="file://$PROJECT_DIR$/listas/prg1-lista3-Gustavo_Barbosa.py" />
-    <entry file="file://$PROJECT_DIR$/prg1/prg1-lista2b-Gustavo_Barbosa.py" />
-    <entry file="file://$PROJECT_DIR$/prg1/prg1-lista3-Gustavo_Barbosa.py" />
-    <entry file="file://$USER_HOME$/Downloads/scratch_3.py" />
-    <entry file="file://$PROJECT_DIR$/prg1-lista4a-Gustavo_Barbosa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prg1-lista4b-Gustavo_Barbosa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prg1-lista4c-Gustavo_Barbosa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prg1-lista3-Gustavo_Barbosa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prg1-lista2a-Gustavo_Barbosa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prg1/prg1-lista5a-Gustavo_Barbosa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista2c_Gustavo_Barbosa.coverage" NAME="prg1-lista2c-Gustavo_Barbosa Coverage Results" MODIFIED="1572647283994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista2a_Gustavo_Barbosa.coverage" NAME="prg1-lista2a-Gustavo_Barbosa Coverage Results" MODIFIED="1572647675711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_prova_p1_2019_1.coverage" NAME="prg1-prova-p1-2019-1 Coverage Results" MODIFIED="1572637731425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$debug.coverage" NAME="debug Coverage Results" MODIFIED="1561080016686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista1_Gustavo_Barbosa.coverage" NAME="prg1-lista1-Gustavo_Barbosa Coverage Results" MODIFIED="1572637545691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista4a_Gustavo_Barbosa.coverage" NAME="prg1-lista4a-Gustavo_Barbosa Coverage Results" MODIFIED="1572647459070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista4b_Gustavo_Barbosa.coverage" NAME="prg1-lista4b-Gustavo_Barbosa Coverage Results" MODIFIED="1572655328966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista5a_Gustavo_Barbosa.coverage" NAME="prg1-lista5a-Gustavo_Barbosa Coverage Results" MODIFIED="1572655988813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prg1$prg1_lista2b_Gustavo_Barbosa.coverage" NAME="prg1-lista2b-Gustavo_Barbosa Coverage Results" MODIFIED="1572637975984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

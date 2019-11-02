@@ -17,6 +17,25 @@ def comprar_frutas(morango=0,uva=0) :
     pago pelo cliente.
     '''
 
+    if morango <= 5:
+        preco_morango = (morango * 2.50)
+    else:
+        preco_morango = (morango * 2.20)
+
+    if uva <= 5:
+        preco_uva = (uva * 1.80)
+    else:
+        preco_uva = (uva * 1.50)
+
+    qntd_frutas = morango + uva
+    valor_total = preco_morango + preco_uva
+
+    if qntd_frutas > 8 or valor_total > 25:
+        valor_total -= 10/100 * valor_total
+
+    return round(valor_total, 2)
+
+
 
 # Área de testes: só mexa aqui se souber o que está fazendo!
 acertos = 0
@@ -35,7 +54,7 @@ def test(obtido,esperado) :
                                                     repr(obtido)))
 
 
-def main() :
+def main():
     print('Comprar frutas:')
     # Teste de zeros:
     test(comprar_frutas(),0)
